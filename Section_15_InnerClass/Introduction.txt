@@ -1,0 +1,70 @@
+What are Inner_classes ?
+
+The process of a class present inside the another class is called Inner class or the nested class 
+If you have a class there and you want to reduce the bulkiness of the class or make it somewhat simpler then you can use this another class inside the main one.
+
+There are different types of the Inner_Classes :
+ 
+1. Nested Inner classes
+2. Local Inner class
+3. Anonymous Inner class 
+4. Static Inner class
+
+------------------------------------------------------------------------------------------
+
+#_Nested_Inner_Class 
+
+// Here is a example code that I am gonna write. 
+
+class Outer {
+
+    int x = 10;
+
+    class Inner {
+
+        int y = 20;
+
+        void InnerDisplay() {
+
+            System.out.println(x);
+            System.out.println(y);
+        }
+    }
+
+    void OuterDisplay() {
+
+        Inner I = new Inner();
+
+        I.InnerDisplay();
+        System.out.println(I.y);
+    }
+}
+
+Now then it is the example of the Inner class where the value of the variable that is "x" exist throughout the code but the value of the variable "y" don't last long and it is only present till the brackets of the inner class and that is that.
+
+So, here there was the another class that was introduced inside the normal class to reduce the complexity of the code and the outer class cannot access the members of the inner class directly. So. in order to access the members of the inner class we need to make the objects of the Inner class and then directly we can use it 
+
+------------------------------------------------------------------------------------------------
+
+
+2. Local Inner Class Example :-
+
+class Outer {
+
+    void Display() {
+
+        class Inner {
+
+            void innerDisplay() {
+
+                System.out.println("Hello");
+            }
+        }
+
+        Inner I2 = new Inner();
+        I2.innerDisplay();
+    }
+}
+
+
+---------------------------------------------------------------------------------------------------------
