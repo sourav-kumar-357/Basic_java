@@ -26,11 +26,11 @@ class Test {
     }
 }
 
-// the main class file 
+// the main class file
 public class Program1 {
     // The main class prsesent here
     public static void main(String[] args) {
-        
+
         // Creating the object of the class
         Test t1 = new Test();
         t1.show();
