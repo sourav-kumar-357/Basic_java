@@ -28,5 +28,6 @@ public class Program5 {
         fun3();
 
         System.out.println("Exiting the program");
+        System.out.println("Bye");
     }
 }
