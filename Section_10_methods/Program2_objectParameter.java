@@ -17,9 +17,9 @@ public class Program2_objectParameter {
             }
         }
     }
-    
+
     public static void main(String[] args) {
-        
+
         System.out.print("Please enter the total number of element in the array : ");
         int element = sc.nextInt();
 
@@ -32,13 +32,13 @@ public class Program2_objectParameter {
         }
 
         System.out.print("\nThe array is as follow : ");
-        for ( int a = 0; a < arr.length; a++) {
+        for (int a = 0; a < arr.length; a++) {
             System.out.print(arr[a] + " ");
         }
 
         change(arr);
         System.out.print("\nThe new array is : ");
-        for ( int A : arr ) {
+        for (int A : arr) {
             System.out.print(A + " ");
         }
     }
