@@ -1,5 +1,7 @@
 // The UnChecked Exception and handling them
 
+package Section_18_Exception_Handling;
+
 public class Program4 {
 
     // Making the first function here

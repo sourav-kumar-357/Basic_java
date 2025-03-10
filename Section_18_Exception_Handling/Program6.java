@@ -1,5 +1,7 @@
 // Demo of the Throw and Throws part
 
+package Section_18_Exception_Handling;
+
 // Creating a new exception class here
 class NegativeDimensionException extends Exception {
 

@@ -1,5 +1,7 @@
 // Practicing the Try and Catch block in java Exception handling section
 
+package Section_18_Exception_Handling;
+
 import java.util.Scanner;
 
 public class Program1 {

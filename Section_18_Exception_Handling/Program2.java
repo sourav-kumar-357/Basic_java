@@ -1,5 +1,7 @@
 // Demonstration of the multiple try and Catch block on java Exception handling part
 
+package Section_18_Exception_Handling;
+
 public class Program2 {
 
     // The main class of the program

@@ -1,5 +1,7 @@
 // the finally block usage is showcased here
 
+package Section_18_Exception_Handling;
+
 // The original class of the program is mentioned here
 public class Program7 {
     

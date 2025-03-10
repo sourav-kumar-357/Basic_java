@@ -1,6 +1,9 @@
 // The Checked Exceptions and their handling process
 
 // The origin class of the program
+
+package Section_18_Exception_Handling;
+
 public class Program5 {
 
     // Creating some anonymous functions here
